@@ -1,0 +1,507 @@
+<html>
+<head>
+<title>IMD - City Weather</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="../jscss/style.css" rel="stylesheet" type="text/css">
+<style type="text/css" media="print">
+BODY {display:none;visibility:hidden;}
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<center>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-image:url(../images/bg3.jpg); background-size:cover;">
+  <tr height="70">
+    <td width="100" align="right" style="padding:3px; vertical-align:middle;" valign="middle"><img src="../images/Ashok.png" height="70" border="0" style="padding:7px;"></td>
+    <td align="center" style="vertical-align:middle;" valign="middle">
+    <font style=" font-size:34px; color:#99FF0; font-weight:bold; font-family:courier; text-shadow: 2px 2px #FF6633; letter-spacing:2px;">INDIA METEOROLOGICAL DEPARTMENT</font><br />
+    <font style=" font-size:21px; color:#003399; font-weight:bold; font-family:'courier';">Ministry of Earth Sciences</font><br />
+    <font style=" font-size:18px; color:#330000; font-weight:bold; font-family:'courier'; ">Government of India</font>
+    </td>
+    <td width="100"style="padding:3px; vertical-align:middle;" valign="middle"><img src="../images/imd_logoc.gif" height="70" border="0" style="padding:7px;"></td>
+  </tr>
+</table>
+
+	
+
+
+<table width="100%" border="1" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:210px; text-align:center;"><font style="font:Georgia; color:#FFFF00; font-size:10px;">
+<div id="tag_ora" align ="center">
+
+<center><b>Saturday, 07 January 2017<br style="line-height:30px;"/>09:40 PM IST</b></center></div>
+</td>
+<td><link rel="stylesheet" type="text/css" href="../jscss/ddsmoothmenu.css" />
+<script type="text/javascript" src="../jscss/jquery.min.js"></script>
+<script type="text/javascript" src="../jscss/ddsmoothmenu.js">
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	customtheme: ["#003366", "#ff6633"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+<div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+<li style="text-align:center; padding:0px; vertical-align:top;" title="Home"><a href="../pages/main.php" target="_parent">Home<br>&nbsp;<img src="../images/home.gif" height="18" /></a> 
+<li><a href="#">About <BR>IMD</a>
+  <ul>
+  <li><a href="../pages/about_mandate.php" target="_parent">Mandate</a></li>
+  <li><a href="../pages/about_history.php">History</a></li>
+  <li><a href="../pages/about_organisation.php">Organisation Structure</a></li>
+  <li><a href="../pages/about_whoiswho.php">Who Is Who in IMD</a></li>
+  <li><a href="http://metnet.imd.gov.in/imddir/" target="_new">IMD Directory</a></li>
+  <li><a href="../pages/about_ex_dgms.php">Ex-DGMs of IMD</a></li>
+  <li><a href="../pages/about_senior_officers.php">Senior Officers of IMD</a></li>
+  <li><a href="../pages/about_achievers.php">Achievers</a></li>
+  <li><a href="../pages/ccc.php">Citizen's/Client's Charter</a></li> </ul>
+</li>
+<li><a href="../pages/about_minister.php">Hon'ble<br />Ministers</a></li>
+<li><a href="../pages/about_moes_sec.php">Secretary<br />MOES</a></li>
+<li><a href="../pages/about_dgm.php">DGM <BR>IMD</a></li>
+<li><a href="#">Observational<br />Network</a>
+  <ul>
+  <li><a href="../pages/obs_network.php?id=01">Surface (Departmental) Observatories</a></li>
+  <li><a href="../pages/obs_network.php?id=11">Surface (Non-Departmental) Observatories</a></li>
+  <li><a href="../pages/obs_network.php?id=02">RS / RW Observatories</a></li>
+  <li><a href="../pages/obs_network.php?id=04">Pilot Balloon Observatories</a></li>
+  <li><a href="../pages/obs_network.php?id=13">Automatic Weather Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=14">Automatic Rainguage Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=15">Aeronautical Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=08">Agromet Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=16">Radar Network</a></li>
+  <li><a href="../pages/obs_network.php?id=17">Radiation Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=10">Global Atmospheric Watch (GAW) Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=12">Ozone Stations</a></li>
+  <li><a href="../pages/obs_network.php?id=19">Flood Met Offices</a></li>
+  <li><a href="../pages/obs_network.php?id=18">High Wind Speed Recorder Stations</a></li> 
+   <li><a href="../pages/obs_network.php?id=09">Seismological Network</a></li>
+  </ul>
+</li>
+<li><a href="#">IMD<br />Services</a>
+  <ul>
+
+  <li><a href="../pages/services_agrimet.php">Agrometeorology</a></li>
+  <li><a href="../pages/services_astronomy.php">Astronomical Service</a></li>
+  <li><a href="../pages/services_aviation.php">Aviation Meteorology</a></li>
+  <li><a href="../pages/services_cyclone.php">Cyclone</a></li>
+  <li><a href="../pages/services_environmet.php">Environmental Monitoring Service</a></li>
+  <li><a href="../pages/services_hydromet.php">Hydrometeorology</a></li>
+  <li><a href="../pages/services_mti.php">Human Resource Development</a></li>
+  <li><a href="../pages/services_marine.php">Marine Meteorology</a></li>
+  <li><a href="../pages/services_telecom.php">Meteorological Telecommunication</a></li>
+  <li><a href="../pages/services_sid.php">Surface Meteorological Instrumentation</a></li>
+  <li><a href="../pages/services_ui.php">Upper Air Meteorological Instrumentation</a></li>
+   <li><a href="../pages/services_seismo.php">Seismology</a></li>
+    </ul>
+</li>
+<li><a href="#">IMD<br>Publications</a>
+  <ul>
+  <li><a href="../pages/publ_mausam.php">MAUSAM Journal</a></li>
+  <li><a href="../pages/publ_imdnews.php">IMD News</a></li>
+  <li><a href="../pages/publ_mausammanjusha.php"><font style="font-size:13px;">&#2350;&#2380;&#2360;&#2350; &#2350;&#2306;&#2332;&#2370;&#2359;&#2366;</font></a></li>
+  </ul>
+</li>
+</li>
+<!-- new addition--> 
+<li><a href="#">Others<BR>&nbsp;</a>
+  <ul>
+ <li><a href="../pages/rti.php">Right to Information</a></li>
+ 
+  <li><a href="../pages/rfd.php">Result Framework Document</a></li>
+ <li><a href="../pages/grievance.php">Grievance Redressal</a></li>
+  <li><a href="../pages/sexual_harassment_complaint_1.php">Sexual Harassment Complaint</a></li>
+  <li><a href="../pages/ipr.php">Immovable Property Returns</a></li>
+  </ul>
+</li>
+ <!--new addition -->
+</ul>
+<ul><li><a href="../pages/contactus.php">Contact Us</a></li>
+</ul>
+<!--new addition -->
+</ul>
+<ul><li><a href="https://www.facebook.com/India.Meteorological.Department/" target="_new"><img src="../images/Facebook_Logo_sml.jpg" height="30" /></a></li>
+<li><a href="https://twitter.com/Indiametdept" target="_new"><img src="../images/Twitter_logo.jpg" height="30" /></a></li>
+</ul>
+
+<br style="clear: left" />
+</div>
+</td>
+<td style="width:210px; text-align:center;"><a href="../hindinew/" target=_blank><b><font style="font:Georgia; color:#FFFF00; font-size:12px;">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;</font><font style="font:Georgia; color:#FFFF00; font-size:11px;"> / Hindi</font></b></a></td>
+</tr>
+</table>
+<TABLE width="100%" border="1" cellspacing="1" cellpadding="0">
+<TR>
+<TD width="204" valign="top" bgcolor="#ddeeff">
+
+<script type="text/javascript" src="../jscss/jquery-ui.js"></script>
+<script type="text/javascript" src="../jscss/jquery.min.js"></script>
+<script type="text/javascript" src="../jscss/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+
+//Initialize Arrow Side Menu:
+ddaccordion.init({
+	headerclass: "menuheaders", //Shared CSS class name of headers group
+	contentclass: "menucontents", //Shared CSS class name of contents group
+	revealtype: "clickgo", //Reveal content when user clicks or onmouseover the header? Valid value: "click", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0,1,2], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["selected", "unselected"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: 500, //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+</script>
+
+<style type="text/css">
+
+.arrowsidemenu{
+	width: 203; /*width of menu*/
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+}
+	
+.arrowsidemenu div a{ /*header bar links*/
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	background: transparent url(../images/arrowgreen.gif) 100% 0;
+  height: 24px; /*Set to height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+	padding: 4px 0 4px 10px;
+	line-height: 24px; /*Set line-height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+	text-decoration: none;
+}
+	
+.arrowsidemenu div a:link, .arrowsidemenu div a:visited{
+	color: #26370A;
+}
+
+.arrowsidemenu div a:hover{
+	background-position: 100% -32px;
+}
+
+.arrowsidemenu div.unselected a{ /*header that's currently not selected*/
+	color: #6F3700;
+}
+
+	
+.arrowsidemenu div.selected a{ /*header that's currently selected*/
+	color: blue;
+	background-position: 100% -64px !important;
+}
+
+.arrowsidemenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.arrowsidemenu ul li{
+	border-bottom: 1px solid #a1c67b;
+}
+
+
+.arrowsidemenu ul li a{ /*sub menu links*/
+	/* background-color:#009999; */
+	background-color:#97F0F0;
+	display: block;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+	padding: 5px 0;
+	padding-left: 10px;
+	border-left: 10px double #a1c67b;
+}
+
+.arrowsidemenu ul li a:hover{
+	/* background: #d5e5c1; */
+	 background:#CC3333;
+	 color:#FFFF00;
+}
+
+</style>
+
+<body>
+
+
+
+<div class="arrowsidemenu">
+
+<div><a title="Weather Information">Weather Information</a></div>
+
+	<ul class="menucontents">
+	<li><a href="../pages/allindiawxinf.php" target="_parent">All India Weather Inference</a></li>
+	<li><a href="../pages/allindiawxfcbulletin.php">All India Weather Forecast</a></li>
+	<li><a href="../pages/allindiawxwarningbulletin.php">All India Weather Warnings</a></li>
+
+   
+	<li><a href="http://geospatial.imd.gov.in/district_rainfall/"target="_new">Districtwise Rainfall Forecast</a></li>
+	 	    
+	<li><a href="../pages/weeklyweatherreport.php" target="_parent">Weekly Weather Report</a></li>
+	<li><a href="../pages/marine_bulletins.php" target="_parent">Marine Weather Bulletins</a></li>
+	<!--<li><a href="../pages/windchill.php" >Wind Chill Temperature</a></li>-->
+	<!--<li><a href="../pages/heatwave.php">Heat Index</a></li>-->
+	<li><a href="../pages/nowcast.php">Nowcast</a></li>
+	<li><a href="../pages/city_weather_main.php">City Weather</a></li>
+	<li><a href="http://amssdelhi.gov.in/fog/fog16/project_fog.html" target=_blank>FDP on Weather during Winter</a></li>
+	</ul>
+
+
+	
+	<div class="menuheaders"><a title="Rainfall">Specialized Forecasts</a></div> 
+	<ul class="menucontents">
+	<li><a href="../pages/tourism_forecast.php">Tourism Forecast</a></li>
+    <li><a href="../pages/highway_forecast.php">Highway Forecast</a></li>
+    <li><a href="../pages/mountainwxbulletin.php">Mountain Weather Bulletin</a></li>
+<!--<li><a href="http://www.imdbhopal.gov.in/simhasth1.htm" target=_blank>Mahakumbh Simhasth 2016</a></li>
+	
+  -->
+  <!--<li><a href="http://amssdelhi.gov.in/amarnath/2014/index.html" target="_new">Shri Amarnathji Yatra 2016</a></li>-->
+
+    <li><a href="http://121.241.116.157/MATA/matavaishno.html" target="_new">Mata Vaishno Devi Yatra</a></li>
+    </li>
+    </ul>
+  
+        
+
+
+
+<div class="menuheaders"><a href="http://hydro.imd.gov.in/hydrometweb/(S(f1mwiyvonpayer45tzdgzk3u))/landing.aspx" target="_blank" title="Rainfall Information">Rainfall Information</a></div>
+
+
+<div class="menuheaders"><a href="../pages/monsoon_main.php" target="_parent" title="Monsoon">Monsoon</a></div>
+<div class="menuheaders"><a href="http://www.rsmcnewdelhi.imd.gov.in/index.php?lang=en" target="_new" title="RSMC">Cyclone</a></div> 
+<div class="menuheaders"><a href="../pages/department_sites.php" target="_parent" title="Departmental Sites">Departmental Sites</a></div> 
+<div class="menuheaders"><a href="../pages/moes_sites.php" target="_parent" title="Departmental Sites">MOES Sites</a></div> 
+
+</div>
+
+
+ 
+
+    
+
+     
+
+ <table bgcolor="#DDEEFF" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#DDEEFF"  align="center" valign="middle">
+<br />
+<font color="black">Visitors since 1st June 2016</font><BR><BR>
+<a target=_blank href='http://www.sumodirectory.com/pfree.html'  onclick="return confirm('Are You sure You want to go to other website?')"> 
+<IMG SRC='http://14.139.247.11/citywx/counter/counter.php?page=12345' ALIGN=middle>
+</a>
+<BR><a target=_blank href='http://www.sumodirectory.com' onClick="return confirm('Are You sure You want to go to other website?')"><font size=1->web directory</font></a>
+</center>
+<hr>
+</td>
+</tr>
+
+       </table> 
+  
+</TD>
+<TD valign="top" bgcolor="#FEFFFE">
+
+
+
+<TABLE bgcolor="#FEFFFE" cellSpacing="0" cellPadding=0 width="97%" border="0">
+<TR vAlign=top><TD colspan="3" align="center">
+<iframe src="http://14.139.247.11/citywx/city_weather.php?id=" style="width:100%; height:700; border:none;" ></iframe>
+</TD></TR>
+</TABLE>
+
+
+</TD>
+<TD width="204" valign="top" bgcolor="#ddeeff"><div style="background-color:#ddeeff;">
+ 
+    
+    <table width="204" border="1" cellspacing="0" cellpadding="0" style="background-image:url(../images/flag1.jpg); background-size:cover;">
+      <tr>
+        <td align="center">
+        <img src="../images/newncc.gif" width=30 height=15>
+        <br>
+        <div id="marquee1" style="overflow:hidden; border:#5F6062 2px solid; background-color:#97F0F0;" >
+        <marquee width="180" height="190"  direction="up" scrollamount="4" scrolldelay="150" onMouseOver="this.stop();" onMouseOut="this.start();"   >
+         <!--<div align=center style="font-size:12px">
+		<a href="http://www.imd.gov.in/doc/corrigendum_03032015.pdf" target=_blank>Corrigendum regarding the filling up of 4 posts of Scientist "G"</A>
+		<BR><BR>
+        </div>-->
+<div align=center >
+  
+    <a style="color:#000066;" href="http://www.imd.gov.in/pages/press_release_view.php?ff=20170106_pr_86">WET SPELL AND FALLING TEMPERATURE SCENARIO OVER NORTHWEST AND ADJOINING CENTRAL & EAST INDIA</a><BR><BR>
+        <a style="color:#000066;" href="http://www.imd.gov.in/pages/press_release_view.php?ff=20170105_pr_85">CURRENT WEATHER STATUS AND OUTLOOK FOR NEXT TWO WEEKS DATED 05.01.2017</a><BR><BR>
+        <a style="color:#000066;" href="http://www.imd.gov.in/pages/press_release_view.php?ff=20170103_pr_84">WET SPELLS OVER WESTERN HIMALAYAN REGION AND ADJOINING PLAINS OF NORTHWEST INDIA DURING NEXT 5 DAYS</a><BR><BR>
+      
+	<a style="color:#000066;" href="http://www.imd.gov.in/pages/advertisements_view.php?ff=20161111_advt_31">GKMS-News Quarterly Newsletter July-September, 2016</a><BR><BR>
+	  
+  
+	<a style="color:#000066;" href="http://www.imd.gov.in/pages/advertisements_view.php?ff=20160820_advt_30">Operationalisation of Block Level Weather Forecast and Agromet Advisories</a><BR><BR>
+	  
+        </div>
+
+        </marquee>
+        </div>
+        </td>
+      </tr>
+    </table>
+    
+
+    <table width="204" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td width="12" align="center" bgcolor="#5F6062"><img src="../images/index_16.gif" width="4" height="7" alt=""></td>
+        <td width="172" bgcolor="#5F6062"><b class="white-text">Miscellaneous</b> </td>
+      </tr>
+    </table>
+
+
+    
+     <table width="204" border="0" cellspacing="0" cellpadding="0" style="background-image:url(../images/flag1.jpg); background-size:cover;">
+        <tr>
+          <td width="17">&nbsp;</td>
+          <td width="187" valign="top">
+          <table width="178" border="0" cellpadding="7" cellspacing="0">
+            <tr>
+              <td width="146"><a href="../pages/press_release.php" style="font-weight:bold;">Press Release</a></td>
+            </tr>
+          </table>
+          <table width="178" border="0" cellpadding="7" cellspacing="0">
+            <tr>
+              <td width="146"><a href="../pages/semiconfwksp.php" style="font-weight:bold;">Conference / Workshop / Seminar</a></td>
+            </tr>
+          </table>
+          <!-- EOI/RFI MERGED WITH TENDERS-->
+<!--
+	<table width="178" border="0" cellpadding="7" cellspacing="0">
+            <tr>
+              <td width="146"><a href="../pages/rfieoi.php" style="font-weight:bold;">RFI / EOI</a></td>
+            </tr>
+          </table>
+
+	-->
+          <table width="178" border="0" cellpadding="7" cellspacing="0">
+            <tr>
+              <td width="146"><a href="../pages/tenders.php" style="font-weight:bold;">Tenders/ RFI/ EOI</a></td>
+            </tr>
+          </table>
+          <table width="178" border="0" cellpadding="7" cellspacing="0">
+            <tr>
+              <td width="146"><a href="../pages/advertisements.php" style="font-weight:bold;">Advertisements/ Notices</a></td>
+            </tr>
+          </table>
+                    </td>
+        </tr>
+      </table>
+    
+
+
+
+    
+      <table bgcolor="#DDEEFF" width="205" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td width="12" align="center" bgcolor="#5F6062"><img src="../images/index_16.gif" width="4" height="7" alt=""></td>
+        <td width="172" bgcolor="#5F6062"><b class="white-text">Other Related Links</b> </td>
+      
+</tr>
+</table>
+       
+          <table width="205" border="0" cellspacing="0" cellpadding="10" style="background-image:url(../images/flag1.jpg); background-size:cover; ">
+<TR>
+  <td align="center">
+<a href="http://www.imetsociety.org" style="font-weight:bold;" target=_blank">IMS</a>
+<td>
+</tr>
+        <tr>
+<td align="center"><a href="../pages/metnet.php" style="font-weight:bold;" onclick="window.open('http://metnet.imd.gov.in');">
+
+<!--<img src="../images/metnet_logo.png" height="31" alt="Intra-IMD Portal"><br />-->
+Intra-IMD Portal</a>
+</td>
+</tr>
+
+	      <tr>
+              <td>
+<form name="form4" method="post" action="../pages/links.php" target="_new">
+<select name="link_value" style="font: Verdana; font-size:11px; width:165px; background-color: #ffffee; font-weight:bold; text-align:left;" onChange="form4.submit();">
+                <option>List.............</option>
+                <option value="http://mohfw.nic.in/cghsnew/index.asp">CGHS(Ministry of Health & Family Welfare)</option>
+                <option value="http://persmin.gov.in/dopt.asp">Department of Personnel & Training (DOPT)</option>
+                <option value="http://persmin.gov.in/Pension.asp">Department of Pensions & Pensioners' Welfare</option>
+                <option value="http://darpg.gov.in/">Department of Administrative Reforms and Public Grievances</option>
+                <option value="http://www.rajbhasha.nic.in/">Department of Official Language (&#2352;&#2366;&#2332;&#2349;&#2366;&#2359;&#2366;&nbsp;&#2357;&#2367;&#2349;&#2366;&#2327;)</option>
+   				<option value="http://www.nvsp.in/">National Voters' Services Portal</option>
+                </select>
+              </form></td>
+            </tr>
+        <tr>
+          <td align="center"><a href="http://india.gov.in/" target="_blank"><img src="../images/indiagovin.gif" width="116" height="31" alt="National Portal of India"></a></td>
+        </tr>
+        
+		
+          
+    </table>
+		
+    
+
+
+    
+      <table bgcolor="#DDEEFF" width="205" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td width="172" colspan="2" bgcolor="#5F6062" align="center"><font style="font-size:13px; color:#ffffff;"?>&#2310;&#2332; &#2325;&#2366; &#2361;&#2367;&#2306;&#2342;&#2368; &#2358;&#2348;&#2381;&#2342;</font> </td>
+      </tr>
+    </table>
+
+
+          <table bgcolor="#DDEEFF" width="100%" border="0" cellspacing="0" cellpadding="10">
+            <tr>
+              <td>
+              <iframe style="font-size:4px; font-weight:bold;" src="http://metnet.imd.gov.in/phps/aajka_hindi_shabd_left.php" width=172 height=100 frameBorder="0" scrolling="no"></iframe>
+              <hr />
+              </td>
+            </tr>
+ <tr>
+        <td align="center"><a href="../pages/hindi_mausam_shabdavali.php"><font style="font-size:12px; color:#0033cc; font-weight:bold;">उद्धरण - मौसम विज्ञान शब्दावली </font></a></td>
+      </tr>
+          </table>
+     
+
+</div>
+</TD>
+</TR>
+</TABLE>
+<table width="744" border="0" cellspacing="0" cellpadding="12">
+  <tr>
+    <td align="center" class="white-text" ><a href="../pages/disclaimer.php" target="_parent" class="yellow-text-regular">Disclaimer</a>   |   <a href="../pages/sitedetails.php" target="_parent" class="yellow-text-regular">Site Details</a>&nbsp;|&nbsp; Copyright &copy; India Meteorological Department 2015<BR>This Website belongs to India Meteorological Department, Ministry of Earth Sciences,Government of India <br></td>
+  </tr>
+</table>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6430785-1', 'auto');
+  ga('send', 'pageview');
+
+</script></body>
+</html>
